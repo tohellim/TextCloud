@@ -8,7 +8,7 @@ class Client(Socket):
 
     def set_up(self):
         self.connect(
-            ("192.168.1.90", 1234)
+            ("127.0.0.1", 1234)
         )
 
         listen_thread = Thread(target=self.listen_socket)

@@ -10,7 +10,7 @@ class Server(Socket):
         self.users = []
 
     def set_up(self):
-        self.bind(("192.168.1.90", 1234))
+        self.bind(("127.0.0.1", 1234))
 
         self.listen(5)
         print("Server is listening")
