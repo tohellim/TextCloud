@@ -5,13 +5,13 @@
     python client.py
 ## Для взаимодействия клиента с сервером воспользуйтесь следующими командами: ##
 Пример запроса:
-* ul
-    1. Регистрация: reg login password
-    2. Аунтетификация: auth login password
-    4. Создание файла: create name text
-    5. Чтение файла: read file_id
-    6. Изменение файла: update file_id changed_text
-    7. Удаление файла: delete id
-    8. Показать файлы пользователя: show
-    9. Дать доступ: give_access file_id user_id access_type
-    10. Забрать доступ: remove_access file_id user_id access_type
+1. ol
+    * Регистрация: reg login password
+    * Аунтетификация: auth login password
+    * Создание файла: create name text
+    * Чтение файла: read file_id
+    * Изменение файла: update file_id changed_text
+    * Удаление файла: delete id
+    * Показать файлы пользователя: show
+    * Дать доступ: give_access file_id user_id access_type
+    * Забрать доступ: remove_access file_id user_id access_type
